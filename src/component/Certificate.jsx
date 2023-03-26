@@ -3,7 +3,7 @@ import  a  from "../assets/portfolio/a.jpeg";
 import  b  from "../assets/portfolio/b.jpeg";
 import  c  from "../assets/portfolio/c.jpeg";
 import  d  from "../assets/portfolio/d.jpeg";
-import  freecodecamp from "../assets/portfolio/freecodecamp.png";
+import  freecodecamp from "../assets/freecodecamp.png";
 
 function Certificate() {
 

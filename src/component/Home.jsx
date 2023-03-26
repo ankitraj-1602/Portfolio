@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 
-import  Hero  from "../assets/hero.jpeg";
+import  Hero  from "../assets/ankit.jpeg";
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 export const Home = () => {
@@ -14,7 +14,7 @@ export const Home = () => {
                 </h2>
                 <p className='text-gray-500 py-4'>I am a full-stack MERN (MongoDB, Express, React, Node.js) developer and DSA (Data Structures and Algorithms) coding enthusiast.</p>
                 <div>
-                    <Link to="portfolio" smooth duration={500} className='group text-white  w-fit px-6  py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                   <Link to="portfolio" smooth duration={500}  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer' >
                         Projects
                         <span className='group-hover:rotate-90 duration-300 '>
                         <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
